@@ -1,4 +1,4 @@
-package exercicio2;
+
 
 import java.time.LocalDate;
 
@@ -12,7 +12,7 @@ public class Livro {
         this.anoDePublicacao = anoDePublicacao;
     }
 
-    public void exibirInformacoes(String nome, String titulo, LocalDate anoDePublicacao){
+    public void exibirInformacoes(){
         System.out.println(nome);
         System.out.println(titulo);
         System.out.println(anoDePublicacao);
@@ -21,7 +21,6 @@ public class Livro {
     public int idadeDoLivro(){
         int anoAtual = LocalDate.now().getYear();  
         return anoAtual - anoDePublicacao;
-
     }
 
     public String getNome() {
