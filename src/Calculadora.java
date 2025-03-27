@@ -1,8 +1,8 @@
-package exercicio1;
+
 public class Calculadora {
     private float numero1, numero2, resultado;
 
-    public Calculadora(float numero1, float numero2) {
+    public Calculadora() {
         this.numero1 = numero1;
         this.numero2 = numero2;
         this.resultado = 0;
