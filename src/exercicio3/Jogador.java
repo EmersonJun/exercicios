@@ -1,3 +1,5 @@
+package exercicio3;
+
 public class Jogador {
     private String nome;
     private int pontuacao, numeroDeBatalhas, nivel;

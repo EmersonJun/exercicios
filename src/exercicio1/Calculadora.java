@@ -1,3 +1,4 @@
+package exercicio1;
 
 public class Calculadora {
     private float numero1, numero2, resultado;

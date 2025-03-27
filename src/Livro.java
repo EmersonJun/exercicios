@@ -1,4 +1,4 @@
-package exercicio2;
+
 
 
 import java.time.LocalDate;
@@ -7,7 +7,7 @@ public class Livro {
     private String nome, titulo;
     private int anoDePublicacao;
 
-    public Livro(String nome, String titulo, int anoDePublicacao) {
+    public Livro() {
         this.nome = nome;
         this.titulo = titulo;
         this.anoDePublicacao = anoDePublicacao;
